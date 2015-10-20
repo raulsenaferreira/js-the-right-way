@@ -1,8 +1,5 @@
 ![](http://i.imgur.com/jaEbd80.png)
 
-## Note
-For now we'll be using plain html for editing the guide, but soon it will be migrated to DocPad.
-
 Feel free to contribute!
 
 ## Where

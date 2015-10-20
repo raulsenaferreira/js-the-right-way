@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>JS: The Right Way</title>
@@ -215,7 +215,7 @@
 
                 <p>
                     Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created in.
-        		    It is a important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
+        		    It is an important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
                  </p>
 
                 <p class="source">
@@ -329,15 +329,13 @@
 
                 <h3>Description</h3>
 
-                <p>
-                    Various libraries and frameworks to do tests in JavaScript.
-                </p>
+                <p>Various libraries and frameworks to do tests in JavaScript.</p>
 
                 <h3>Links</h3>
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href='http://visionmedia.github.com/mocha/'>Mocha</a></li>
+                        <li><a target="_blank" href='http://mochajs.org/'>Mocha</a></li>
                     </ul>
                 </section>
 
@@ -397,7 +395,17 @@
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://dexterjs.com/">DexterJS</a></li>
+                        <li><a target="_blank" href="http://sinonjs.org">Sinon.JS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. Created by <a href="http://cjohansen.no">Christian Johansen</a>, maintained by <a href="https://github.com/cjohansen/Sinon.JS/">Sinon.JS community</a>.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/leobalter/DexterJS/">DexterJS</a></li>
                     </ul>
                 </section>
 
@@ -411,7 +419,7 @@
             <div class="wrapper">
                 <h1><a href="#frameworks">Frameworks</a></h1>
 
-                <h3>General purpose</h3>
+                <h3>General Purpose</h3>
 
                 <section class="txt">
                     <ul>
@@ -451,6 +459,26 @@
 
                 <p class="source">
                     Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://underscorejs.org/'>Underscore.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/kriskowal/q">Q.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    A tool for creating and composing asynchronous promises in JavaScript.
                 </p>
 
                 <h3>MV*</h3>
@@ -527,6 +555,16 @@
 
                 <section class="txt">
                     <ul>
+                        <li><a target="_blank" href='http://spicejs.github.io/spicejs/'>Spice.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Spice is a super minimal (< 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using.
+                </p>
+
+                <section class="txt">
+                    <ul>
                         <li><a target="_blank" href='http://www.riotjs.com/'>Riot.js</a></li>
                     </ul>
                 </section>
@@ -576,7 +614,6 @@
                 <p class="source">
                     Asynchronous templates for the browser and node.js.
                 </p>
-
             </div>
         </section>
 
@@ -584,6 +621,7 @@
         <section class="section" id="game-engines">
             <div class="wrapper">
                 <h1><a href="#game-engines">Game Engines</a></h1>
+
                 <br/>
 
                 <section class="txt">
@@ -626,7 +664,6 @@
                     Crafty is a game engine that dates back to late 2010. Crafty makes it really easy to get started making JavaScript games.
                 </p>
 
-
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href='http://www.cocos2d-x.org/wiki/Cocos2d-html5'>Cocos2d-HTML5</a></li>
@@ -636,7 +673,6 @@
                 <p class="source">
                     Cocos2d-html5 is an open-source web 2D game framework, released under MIT License. It is a HTML5 version of Cocos2d-x project. The focus for Cocos2d-html5 development is around making Cocos2d cross platforms between browsers and native application.
                 </p>
-
 
                 <section class="txt">
                     <ul>
@@ -648,10 +684,9 @@
                     Phaser is based heavily on <a target="_blank" href="http://www.flixel.org">Flixel</a>. It is maintained by Richard Davey (<a target="_blank" href="http://www.photonstorm.com/">Photon Storm</a>) who has been very active in the HTML5 community for years.
                 </p>
 
-
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href='http://www.gootechnologies.com/products/engine/'>Goo</a></li>
+                        <li><a target="_blank" href='http://www.goocreate.com/learn/'>Goo</a></li>
                     </ul>
                 </section>
 
@@ -708,7 +743,6 @@
                 <p class="source">
                     Panda.js is a HTML5 game engine for mobile and desktop with Canvas and WebGL rendering.
                 </p>
-
             </div>
         </section>
 
@@ -718,6 +752,10 @@
 
                 <h3>Websites</h3>
                 <div class="links-container">
+                    <p class="source link">
+                        <a href="https://www.javascript.com" target="_blank">JavaScript.com</a>
+                    </p>
+
                     <p class="source link">
                         <a href="http://dailyjs.com/" target="_blank">DailyJS</a>
                     </p>
@@ -738,12 +776,12 @@
                         <a href="http://webplatformdaily.org/" target="_blank">Open Web Platform Daily Digest</a>
                     </p>
 
-                    <p class="source link" style="margin-top: 0;">
+                    <p class="source link">
                         <a href="http://badassjs.com/" target="_blank">Badass JavaScript</a>
                     </p>
 
-                    <p class="source link" style="margin-top: 0;">
-                        <a href="http://www.angularjsdaily.com/" target="_blank">AngularJS Daily</a>
+                    <p class="source link">
+                        <a href="http://paper.li/gwinnem/1390553142" target="_blank">AngularJS Daily</a>
                     </p>
                 </div>
 
@@ -759,10 +797,6 @@
 
                     <p class="source link">
                         <a href="http://emberweekly.com/" target="_blank">Ember Weekly</a>
-                    </p>
-
-                    <p class="source link">
-                        <a href="http://backboneweekly.com/" target="_blank">Backbone Weekly</a>
                     </p>
 
                     <p class="source link">
@@ -789,6 +823,13 @@
                         <a href="http://udgwebdev.com/newsletter" target="_blank">UDGWebDev Weekly</a>
                     </p>
 
+                    <p class="source link">
+                        <a href="http://theproblemsolver.nl/TheReactNewsletter/Subscribe" target="_blank">The React Newsletter</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://ng-newsletter.com/" target="_blank">ng-newsletter</a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -866,7 +907,7 @@
                 </section>
 
                 <p class="source">
-                    by <a target="_blank" href="http://github.com/ryanburgess">Ryan Burgess</a>
+                    by <a target="_blank" href="https://twitter.com/viljamis">Viljami S.</a>
                 </p>
 
                 <section class="txt">
@@ -907,6 +948,16 @@
 
                 <p class="source">
                     by <a target="_blank" href="http://twitter.com/jsissexy">JavaScript Is Sexy</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://jugoncalv.es/blog/javascript/how-to-start-with-javascript/">How to Start with JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    by <a target="_blank" href="http://twitter.com/junspector">Ju Gonçalves</a>
                 </p>
 
                 <h3>Books</h3>
@@ -1053,12 +1104,22 @@
 
                 <section class="txt">
                     <ul>
+                        <li><a target="_blank" href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    by <a target="_blank" href="https://github.com/getify">Kyle Simpson</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
                         <li><a target="_blank" href="http://youmightnotneedjquery.com/">You Might Not Need jQuery</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                    by <a target="_blank" href="http://github.com/ryanburgess">Ryan Burgess</a>
+                    by <a target="_blank" href="http://twitter.com/burgessdryan">Ryan Burgess</a>
                 </p>
 
                 <section class="txt">
@@ -1067,17 +1128,59 @@
                     </ul>
                 </section>
 
+                <p class="source">
+                    by <a target="_blank" href="https://blog.grandcentrix.net/">Ivo Wetzel</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://effectivejs.com/">Effective JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    by <a target="_blank" href="http://calculist.org/">David Herman</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://functionaljavascript.com/">Functional JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    by <a target="_blank" href="http://blog.fogus.me/">Michael Fogus</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="https://leanpub.com/javascript-allonge">JavaScript Allongé</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    by <a target="_blank" href="http://raganwald.com/">Reginald Braithwaite</a>
+                </p>
+
                 <h3>Free E-Books</h3>
 
                 <section class="links-container">
                     <p class="source link">
                         <a target="_blank" href="http://jsbooks.revolunet.com/">JSBooks</a>
                     </p>
+
+                    <p class="source link">
+                        <a target="_blank" href="http://devfreebooks.org/">DevFreeBooks</a>
+                    </p>
                 </section>
 
                 <h3>Portals</h3>
 
                 <section class="links-container">
+                    <p class="source link">
+                        <a href="https://www.javascript.com" target="_blank">JavaScript.com</a>
+                    </p>
+
                     <p class="source link">
                         <a href="http://www.html5rocks.com/" target="_blank">HTML5 Rocks</a>
                     </p>
@@ -1106,7 +1209,7 @@
                         <a href="http://howtonode.org/" target="_blank">How to Node</a>
                     </p>
 
-                    <p class="source link" style="margin-top: 0px">
+                    <p class="source link">
                         <a href="http://nodeguide.com/beginner.html" target="_blank">Felix’s Node.js Beginners Guide</a>
                     </p>
                 </section>
@@ -1153,7 +1256,7 @@
                 </div>
 
                 <div class="screencasts-container">
-                    <a href="http://caio-ribeiro-pereira.github.io/devfreecasts/" target="_blank">
+                    <a href="http://devfreecasts.org/" target="_blank">
                         <img src="assets/devfreecasts.png" alt="DevFreeCasts" />
                     </a>
                 </div>
@@ -1161,6 +1264,12 @@
                 <div class="screencasts-container">
                     <a href="http://tagtree.tv/" target="_blank">
                         <img src="assets/tagtree.png" alt="tagtree.tv" />
+                    </a>
+                </div>
+
+                <div class="screencasts-container">
+                    <a href="http://frontendmasters.com/" target="_blank" style="width: 250px">
+                        <img src="assets/frontendmasters.svg" alt="frontndmasters.com" />
                     </a>
                 </div>
             </div>
@@ -1246,6 +1355,18 @@
                         </figure>
                     </a>
 
+                    <a target="_blank" href="http://brunch.io/">
+                        <figure>
+                            <img src="assets/brunch-logo.png" alt="brunch" />
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="https://github.com/broccolijs/broccoli">
+                        <figure>
+                            <img src="assets/broccoli-logo.png" alt="Browser compilation library" />
+                        </figure>
+                    </a>
+
                     <a target="_blank" href="http://todomvc.com/">
                         <figure>
                             <img src="assets/todomvc-logo.png" alt="todo mvc" />
@@ -1278,12 +1399,12 @@
                     <div class="users"></div>
                 </div>
 
-                <p style="width: 100%;text-align: center;box-sizing:border-box;">
+                <p style="width: 100%; text-align: center; box-sizing: border-box;">
                     <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                        <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+                        <img alt="Creative Commons License" style="border-width: 0;" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
                     </a>
                     <br/>
-                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: The Right Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a> is licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
+                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: The Right Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a>.<br />Licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
                 </p>
             </div>
         </section>
